@@ -1,0 +1,109 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.img-logo {
+  opacity: 100%;
+  margin-left: 150px;
+  margin-top: 30px;
+  height: 50px;
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 65%;
+}
+
+nav a {
+  margin: 20px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e83046;
+}
+
+footer img {
+  width: 450px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-sect {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-footer {
+  width: 1050px;
+  text-align: center;
+}
+
+.visit-button {
+  font-size: 14px;
+  color: rgb(232, 48, 70);
+  font-weight: bold;
+  padding-top: 16.8px;
+  padding-bottom: 16.8px;
+  padding-left: 28.056px;
+  padding-right: 28.056px;
+  background-color: white;
+}
+
+.container-visit-button {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.sect-devs {
+  display: flex;
+  justify-content: center;
+}
+
+.dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 361.33px;
+}
+
+.sect-devs img {
+  width: 198px;
+}
+
+.dev-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dev h2 {
+  font-size: 19.6px;
+  font-weight: bolder;
+}
+
+.dev p {
+  font-size: 12.6px;
+  align-self: baseline;
+}

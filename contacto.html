@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/home/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="home.html">
+          <img
+            class="img-logo"
+            src="img/home/Team_Cherry_Logo_Big.png"
+            alt=""
+            srcset=""
+            data-aos="fade-up"
+          />
+        </a>
+
+        <nav>
+          <a href="news.html">Noticias</a>
+          <a href="home.html">Landing Page</a>
+          <a href="galeria.html">Galeria</a>
+        </nav>
+      </div>
+    </header>
+    <section class="sec-img">
+      <img src="img/form/fondo.jpg" alt="" />
+    </section>
+    <section class="sect-registro">
+      <h1>REGISTRATE A LA BETA</h1>
+      <div class="container-form">
+        <div class="img-form"><img src="img/form/hornet.jpg" alt="" /></div>
+        <form>
+          <h2>CONTACTO</h2>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" required class="int" />
+          <span id="nombre-alert" class="alert"></span>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required class="int" />
+          <span id="email-alert" class="alert"></span>
+          <label for="fechaNac">Fecha De Nacimiento</label>
+
+          <input
+            type="date"
+            name="fechaNac"
+            id="fechaNac"
+            required
+            class="int"
+          />
+          <span id="date-alert" class="alert"></span>
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            value="Enviar"
+            class="boton"
+          />
+        </form>
+      </div>
+      <h3></h3>
+    </section>
+    <footer>
+      <div>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1617768777859-AGG9EBYKHLYQPZCFG75X/tc.png?format=500w"
+          alt=""
+        />
+      </div>
+      <section class="footer-sect">
+        <div class="container-visit-button">
+          <a
+            href="https://www.teamcherry.com.au/"
+            target="_blank"
+            class="visit-button"
+            >Visita Al Team Cherry</a
+          >
+        </div>
+        <div>
+          <p class="text-footer">
+            Hollow Knight está siendo desarrollado por Team Cherry en Adelaida,
+            Australia del Sur. Somos un equipo de 3 personas que, además de
+            hacer el juego, son responsables de construir estos sitios web,
+            cortar esos trailers de juegos, publicar actualizaciones regulares
+            del juego, responder preguntas en las redes sociales y mucho más.
+            Aunque es mucho trabajo, nos encanta hacerlo, y se hace aún más
+            agradable por el apoyo entusiasta que hemos recibido de los
+            fanáticos de esta manera.
+          </p>
+        </div>
+      </section>
+      <section class="sect-devs">
+        <article class="dev">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1617957052580-I25KIL1YWVXBJJIRO4QT/new_icons_0000_Layer-3.png?format=300w"
+          />
+          <div class="dev-desc">
+            <h2>Ari Gibson</h2>
+            <p>
+              Ari es responsable del diseño del juego junto con William. Crea el
+              arte del juego, los entornos y anima cientos de errores.
+            </p>
+          </div>
+        </article>
+        <article class="dev">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1617957040880-V29BY2R0SQMQQVQVDYVP/new_icons_0001_Layer-1.png?format=300w"
+            alt=""
+          />
+          <div class="dev-desc">
+            <h2>Guillermo Pellen</h2>
+            <p>
+              William diseña el juego junto con Ari. Crea el comportamiento
+              enemigo, jefe y juego para Hollow Knight. Si un enemigo parece
+              demasiado desafiante o un guante insuperable, ¡échale la culpa!
+            </p>
+          </div>
+        </article>
+        <article class="dev">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1618302457475-J64F2Z9T4ZLR0PWTMLEG/icons_0002_1.png?format=300w"
+            alt=""
+          />
+          <div class="dev-desc">
+            <h2>David Kazi</h2>
+            <p>
+              Dave fue responsable de la dirección técnica de Hollow Knight.
+              Dividió su tiempo entre hacer que el juego funcionara y arreglar
+              las cosas que Ari y William rompieron.
+            </p>
+          </div>
+        </article>
+      </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/contacto.js"></script>
+  </body>
+</html>

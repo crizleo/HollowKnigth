@@ -1,0 +1,85 @@
+.sect-registro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-form {
+  display: flex;
+  margin-bottom: 100px;
+  border: 5px solid white;
+  border-radius: 40px;
+  height: 473px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 300px;
+  height: 473px;
+}
+
+label {
+  margin-top: 30px;
+}
+
+.int {
+  text-align: center;
+  margin-bottom: 0px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.img-form {
+  width: 300px;
+}
+
+.img-form img {
+  height: 473px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: -30px;
+  margin-top: 0px;
+}
+
+.boton {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #e83046;
+  color: white;
+  margin-top: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+.alert {
+  color: red;
+  font-size: smaller;
+}
+
+.sec-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+}
+
+.sec-img img {
+  width: 100%;
+  z-index: -1;
+}

@@ -1,0 +1,115 @@
+.sect {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 610px;
+  position: relative;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.img-titulo {
+  display: block;
+  margin: auto;
+  margin-top: 220px;
+}
+
+.mecanicas {
+  width: 100%;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  min-width: 300px;
+  max-width: 630px;
+  font-weight: 900;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 1400px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  min-width: 300px;
+  max-width: 630px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.lanzamiento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-lanzamiento div img:hover {
+  animation: animacion;
+}
+
+.img-lanzamiento {
+  display: flex;
+  height: 710px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-lanzamiento div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  width: 1229px;
+  height: 614px;
+  text-align: center;
+}
+
+.img-lanzamiento img {
+  display: block;
+  transition: all 0.4s;
+  width: 1366px;
+  height: 683px;
+}
+
+.img-lanzamiento div:hover img {
+  transform: scale(0.895);
+}
