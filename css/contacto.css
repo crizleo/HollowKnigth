@@ -57,6 +57,7 @@ h2 {
   background-color: #e83046;
   color: white;
   margin-top: 30px;
+  width: 48%;
 }
 
 h3 {
@@ -82,4 +83,10 @@ h3 {
 .sec-img img {
   width: 100%;
   z-index: -1;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
